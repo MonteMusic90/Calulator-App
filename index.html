@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Montes Calculator</title>
+</head>
+<body>
+    <h1>MonteMusics Calculator</h1>
+        <div class="grid-container" id="btn">
+        <input class="amount" id="sumAmount" readonly>
+        <button type="number" class="clear" onclick="clear_All()">Clear</button>
+        <button type="number" class="button" id="divide" onclick="btn_Divide()">/</button>
+        <button type="number" class="button" id="one" value=1 onclick="btn_1()">1</button>
+        <button type="number" class="button" id="two" value=2 onclick="btn_2()">2</button>
+        <button type="number" class="button" id="three" value=3 onclick="btn_3()">3</button>
+        <button type="number" class="button" id="multiply" value="*" onclick="btn_Multiply()">x</button>
+        <button type="number" class="button" id="four" value=4 onclick="btn_4()">4</button>
+        <button type="number" class="button" id="five" value=5 onclick="btn_5()">5</button>
+        <button type="number" class="button" id="six" value=6 onclick="btn_6()">6</button>
+        <button type="number" class="button" id="subtract" onclick="btn_Subtraction()">-</button>
+        <button type="number" class="button" id="seven" value=7 onclick="btn_7()">7</button>
+        <button type="number" class="button" id="eight" value=8 onclick="btn_8()">8</button>
+        <button type="number" class="button" id="nine" value=9 onclick="btn_9()">9</button>
+        <button type="number" class="button" id="add" onclick="btn_Add()">+</button>
+        <button type="number" class="button" id="zero" value=0 onclick="btn_0()">0</button>
+        <button type="number" class="button" id="decimal" onclick="btn_Decimal()">.</button>
+        <button type="number" class="button" id="equal" value= - onclick="btn_Equal()">=</button>
+    </div>
+    <p id="demo"></p>
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+   text-align: center;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding: 5px;
+    
+    
+}
+
+.amount {
+    background-color: white; 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 15px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.clear {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 20px;
+}
+
+#zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.button {
+    font-size: 30px;
+}
