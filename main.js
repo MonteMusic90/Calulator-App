@@ -1,5 +1,4 @@
 var sumAmount = document.getElementById("sumAmount");
-var demo = document.getElementById("demo");
 var equal = document.getElementById("equal").value;
 
 function clear_All() {
